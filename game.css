@@ -1,0 +1,91 @@
+body {
+  color: #E3D3D8;
+}
+
+.question {
+  font-size: 40px;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  background: #E3D3D8;
+  font-size: 3rem;
+  min-width: 80rem;
+  color: #40343A;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #A66D78;
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+.choice-prefix {
+  padding: 2rem 2.5rem;
+  color: #40343A;
+}
+
+.choice-text {
+  padding: 2rem;
+  width: 100%;
+}
+
+.correct {
+  background: linear-gradient(
+    32deg,
+    #42AC59 0%,
+    #42AC59 100%
+  );
+}
+
+.incorrect {
+  background: linear-gradient(
+    32deg,
+    #FA4A39 0%,
+    #FA4A39 100%
+  );
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+  color: #E3D3D8;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 3rem;
+  border: 0.2rem solid #00AD3B;
+  margin-top: 2rem;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background: #42AC59;
+  width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .choice-container {
+    min-width: 40rem;
+  }
+}
+
+.question {
+  color: #E3D3D8;
+}
