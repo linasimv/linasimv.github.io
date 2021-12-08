@@ -280,8 +280,9 @@ p{
 }
 
 .about .content .textBox{
-    width: 49%;
+    width: 100%;
     min-width: 49%;
+    text-aligh: center;
 }
 
 .about .content .imgBx{
