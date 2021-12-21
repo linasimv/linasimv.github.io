@@ -117,6 +117,22 @@ min-height: 100vh;
     font-weight: 'Montserrat:wght@300';
 }
 
+A {
+    color: #fff;
+}
+
+A:visited {
+    color: #fff;
+}
+
+A:active {
+    color: #03a9f4;
+}
+
+A:hover {
+    color: #6ec8f1;
+}
+
 .contactInfo.education li{
     margin-bottom: 15px;
 }
