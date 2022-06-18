@@ -216,15 +216,6 @@ p{
     font-size: 16px;
 }
 
-.skills .box{
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
 .skills .box h4{
     text-transform: uppercase;
     color: #848c99;
@@ -244,6 +235,61 @@ p{
     left: 0;
     height: 100%;
     background: #03a9f4;
+}
+
+.chip{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #e5e5e5;
+    border: none;
+    cursor: default;
+    height: 36px;
+    outline: none;
+    padding: 0;
+    margin: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    align-items: center;
+    border-radius: 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    justify-content: center;
+    background: rgba(205, 214, 219, 0.3);
+}
+.chip1{
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #e5e5e5;
+  border: none;
+  cursor: default;
+  height: 36px;
+  outline: none;
+  padding: 10px;
+  margin: 5px;
+  white-space: nowrap;
+  align-items: center;
+  border-radius: 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  justify-content: center;
+  background: rgba(205, 214, 219, 0.3);
+}
+
+.chip1 h4{
+    color: #2a7da2;
+    font-weight: 600;
+}
+
+.chip-content{
+    cursor: inherit;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    font-weight: 500;
 }
 
 @media (max-width: 1000px){
